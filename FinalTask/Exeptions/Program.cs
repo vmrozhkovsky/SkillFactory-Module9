@@ -1,11 +1,6 @@
 ﻿using Exceptions;
 
 Exception[] exceptions = new Exception[5];
-//MyException myExeption = new MyException("Это моё исключение!");
-//NullReferenceException nullReference  = new NullReferenceException();
-//FormatException formatException = new FormatException();
-//DivideByZeroException divideByZeroException = new DivideByZeroException();
-//TimeoutException timeoutException = new TimeoutException();
 exceptions[0] = new MyException("Это моё исключение!");
 exceptions[1] = new NullReferenceException();
 exceptions[2] = new FormatException();
